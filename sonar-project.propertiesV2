@@ -1,0 +1,35 @@
+# must be unique in a given SonarQube instance
+#sonar.projectKey=groupId:artefact
+sonar.projectKey=sofrecom:eFacture
+
+# --- optional properties ---
+
+# https://docs.sonarqube.org/latest/analysis/analysis-parameters/
+# 
+# defaults to project key
+#sonar.projectName=My project
+# defaults to 'not provided'
+#sonar.projectVersion=1.0
+
+
+# Path is relative to the sonar-project.properties file. Defaults to .
+#sonar.sources=.
+#Default  login/password
+#sonar.login=admin
+#sonar.password=admin
+
+
+#---- Exemple If the files to be analyzed are not in the directory where the analysis
+#starts from, use the sonar.projectBaseDir
+#sonar.projectBaseDir=/home/ftpdrop/cobol/project1
+# Comma-separated paths to directories with sources (required)
+#sonar.sources=src 
+#sonar.language=java,js,c++,py,c
+
+#User tokens have to be used as a replacement of your usual login
+#when running analyses on your code: replace your login by the token in the sonar.login property.
+#when invoking web services: just pass the token instead of your login while doing the basic authentication.
+
+
+# Encoding of the source code. Default is default system encoding
+#sonar.sourceEncoding=UTF-8
